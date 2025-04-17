@@ -40,4 +40,6 @@ Plugin WordPress pour créer des blocs Gutenberg personnalisés destinés aux la
 
 ## À propos
 
-Ce plugin a été développé pour simplifier la création de landing pages avec WordPress en utilisant les blocs Gutenberg. Il fournit une solution modulaire et facile à personnaliser pour les besoins spécifiques des projets web.
+Ce plugin WordPress Gutenberg Custom Blocks a été spécialement conçu pour simplifier la création de landing pages performantes et visuellement attrayantes. En tirant parti des dernières fonctionnalités de Gutenberg et de l'intégration avec ACF Pro, il offre une solution modulaire, flexible et facile à personnaliser pour répondre aux besoins spécifiques de chaque projet web.
+
+Développé avec les meilleures pratiques de codage WordPress, ce plugin garantit une expérience éditoriale fluide tout en maintenant des standards de qualité élevés. Il est idéal pour les agences web, les développeurs et les entreprises souhaitant créer des pages d'atterrissage percutantes sans sacrifier la flexibilité et la facilité d'utilisation.
