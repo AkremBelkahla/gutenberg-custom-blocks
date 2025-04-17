@@ -1,6 +1,17 @@
 # Gutenberg Custom Blocks
 
+[![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue.svg)]()
+[![License](https://img.shields.io/badge/License-GPLv2-blue.svg)]()
+
 Plugin WordPress pour créer des blocs Gutenberg personnalisés destinés aux landing pages.
+
+## Table des matières
+
+- [Prérequis](#prérequis)
+- [Installation](#installation)
+- [Fonctionnalités](#fonctionnalités)
+- [Développement](#développement)
+- [À propos](#à-propos)
 
 ## Prérequis
 
@@ -26,3 +37,7 @@ Plugin WordPress pour créer des blocs Gutenberg personnalisés destinés aux la
 - Créé avec les meilleures pratiques WordPress
 - Utilise Tailwind CSS pour le styling
 - Code PHP et JS bien documenté
+
+## À propos
+
+Ce plugin a été développé pour simplifier la création de landing pages avec WordPress en utilisant les blocs Gutenberg. Il fournit une solution modulaire et facile à personnaliser pour les besoins spécifiques des projets web.
