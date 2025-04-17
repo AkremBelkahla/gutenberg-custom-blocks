@@ -1,0 +1,90 @@
+/**
+ * Styles pour le bloc testimonials-section dans l'u00e9diteur
+ */
+
+/* Testimonials Section */
+#gcb-testimonials-section {
+    background-color: rgb(249 250 251) !important;
+    padding: 5rem 0 !important;
+    margin: 0 !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#gcb-testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gcb-testimonials-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-testimonials-description {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+#gcb-testimonial {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#gcb-testimonial-quote {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+    font-style: italic;
+}
+
+#gcb-testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+#gcb-testimonial-author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+#gcb-testimonial-author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#gcb-testimonial-author-name {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+#gcb-testimonial-author-title {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+#gcb-testimonials-section .testimonial-card {
+    background-color: white !important;
+    border-radius: 0.5rem !important;
+    padding: 2rem !important;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+}

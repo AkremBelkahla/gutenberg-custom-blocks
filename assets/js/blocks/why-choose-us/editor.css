@@ -1,0 +1,68 @@
+/**
+ * Styles pour le bloc why-choose-us dans l'u00e9diteur
+ */
+
+/* Why Choose Us */
+#gcb-why-choose-us {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#gcb-why-choose-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gcb-why-choose-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-why-choose-description {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-why-choose-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+#gcb-why-choose-feature {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 30px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#gcb-why-choose-feature:hover {
+    transform: translateY(-5px);
+}
+
+#gcb-feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3b82f6;
+}
+
+#gcb-feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-feature-description {
+    color: #64748b;
+}

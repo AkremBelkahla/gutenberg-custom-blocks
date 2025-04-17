@@ -1,0 +1,53 @@
+{
+    "key": "group_hero_section",
+    "title": "Hero Section",
+    "fields": [
+        {
+            "key": "field_hero_title",
+            "label": "Titre",
+            "name": "hero_title",
+            "type": "text",
+            "required": 1
+        },
+        {
+            "key": "field_hero_subtitle",
+            "label": "Sous-titre",
+            "name": "hero_subtitle",
+            "type": "textarea",
+            "required": 0
+        },
+        {
+            "key": "field_hero_button_text",
+            "label": "Texte du bouton",
+            "name": "hero_button_text",
+            "type": "text",
+            "required": 0
+        },
+        {
+            "key": "field_hero_button_link",
+            "label": "Lien du bouton",
+            "name": "hero_button_link",
+            "type": "url",
+            "required": 0
+        },
+        {
+            "key": "field_hero_image",
+            "label": "Image de fond",
+            "name": "hero_image",
+            "type": "image",
+            "required": 1,
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/hero-section"
+            }
+        ]
+    ],
+    "active": true,
+    "description": "Champs pour le bloc Hero Section"
+}

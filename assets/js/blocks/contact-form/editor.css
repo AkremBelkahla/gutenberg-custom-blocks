@@ -1,0 +1,68 @@
+/**
+ * Styles pour le bloc contact-form dans l'u00e9diteur
+ */
+
+/* Contact Form */
+#gcb-contact-form {
+    padding: 80px 20px;
+    background-color: #f1f5f9;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#gcb-contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#gcb-contact-form-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+#gcb-contact-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-contact-description {
+    margin-bottom: 2rem;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-contact-info-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+#gcb-contact-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+#gcb-contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+#gcb-contact-info-icon {
+    margin-right: 1rem;
+    color: #3b82f6;
+    font-size: 1.5rem;
+}
+
+#gcb-contact-info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#gcb-contact-info-title {
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,69 @@
+/**
+ * Styles généraux pour les blocs
+ *
+ * @package GutenbergCustomBlocks
+ */
+
+/* Styles de base */
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Styles pour le mode aperçu dans l'éditeur */
+.gcb-preview {
+    padding: 20px;
+    border: 1px dashed #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Styles spécifiques pour le mode aperçu */
+.is-preview {
+    padding: 20px !important;
+    border: 2px dashed #ccc !important;
+    background-color: #f9f9f9 !important;
+}
+
+.block-editor-block-preview__content-iframe .is-preview {
+    padding: 10px !important;
+    min-height: 100px !important;
+}
+
+/* Animations */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Styles des éléments flottants */
+.laptop-image {
+    animation: float 6s ease-in-out infinite;
+}
+
+.code-screen {
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.ui-element {
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+/* Styles pour les éléments de statistiques */
+.gcb-stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 1px;
+    background-color: #e2e8f0;
+}

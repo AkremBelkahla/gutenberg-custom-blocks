@@ -1,0 +1,32 @@
+/**
+ * Styles pour le frontend
+ *
+ * @package GutenbergCustomBlocks
+ */
+
+/* Animations pour les éléments flottants */
+.laptop-image {
+    animation: float 6s ease-in-out infinite;
+}
+
+.code-screen {
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.ui-element {
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,106 @@
+/**
+ * Styles pour le bloc best-solutions dans l'u00e9diteur
+ */
+
+/* Best Solutions */
+#gcb-best-solutions {
+    background-color: rgb(249 250 251) !important;
+    padding: 5rem 0 !important;
+    margin: 0 !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#gcb-solutions-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+#gcb-solutions-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+#gcb-solutions-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-solutions-description {
+    margin-bottom: 2rem;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-solutions-list {
+    list-style: none;
+    padding: 0;
+}
+
+#gcb-solution-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#gcb-solution-icon {
+    margin-right: 1rem;
+    color: #3b82f6;
+    font-size: 1.2rem;
+}
+
+/* Styles pour l'aperu00e7u dans l'u00e9diteur */
+.gcb-best-solutions-editor {
+    background-color: #f8fafc;
+    padding: 40px;
+    border-radius: 5px;
+    
+    .gcb-solutions-content {
+        max-width: 800px;
+        margin: 0 auto;
+        
+        .gcb-section-title {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+        
+        .gcb-section-description {
+            color: #64748b;
+            margin-bottom: 20px;
+        }
+        
+        .gcb-solutions-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            
+            .gcb-solution-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                
+                .gcb-solution-icon {
+                    width: 24px;
+                    height: 24px;
+                    background-color: #3b82f6;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 10px;
+                    color: white;
+                    font-size: 12px;
+                }
+                
+                .gcb-solution-text {
+                    color: #1e293b;
+                }
+            }
+        }
+    }
+}

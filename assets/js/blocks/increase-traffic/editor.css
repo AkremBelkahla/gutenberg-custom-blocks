@@ -1,0 +1,142 @@
+/**
+ * Styles pour le bloc increase-traffic dans l'u00e9diteur
+ */
+
+/* Increase Traffic */
+#gcb-increase-traffic {
+    position: relative !important;
+    padding: 6rem 0 !important;
+    color: #ffffff !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    font-family: 'Outfit', sans-serif !important;
+    background-color: #f8fafc !important;
+}
+
+#gcb-traffic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+#gcb-traffic-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+#gcb-traffic-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-traffic-description {
+    margin-bottom: 2rem;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-traffic-features {
+    list-style: none;
+    padding: 0;
+}
+
+#gcb-traffic-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#gcb-feature-icon {
+    margin-right: 1rem;
+    color: #3b82f6;
+    font-size: 1.2rem;
+}
+
+#gcb-traffic-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+#gcb-traffic-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour l'aperu00e7u dans l'u00e9diteur */
+.gcb-increase-traffic-editor {
+    background-color: #f8fafc;
+    padding: 40px;
+    border-radius: 5px;
+    
+    .gcb-traffic-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        
+        .gcb-traffic-text {
+            flex: 1;
+            min-width: 300px;
+            
+            .gcb-section-title {
+                font-size: 28px;
+                margin-bottom: 15px;
+                color: #1e293b;
+            }
+            
+            .gcb-section-description {
+                color: #64748b;
+                margin-bottom: 20px;
+            }
+            
+            .gcb-features-list {
+                list-style: none;
+                padding: 0;
+                margin-top: 20px;
+                
+                .gcb-feature-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    
+                    .gcb-feature-icon {
+                        width: 24px;
+                        height: 24px;
+                        background-color: #3b82f6;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 10px;
+                        color: white;
+                        font-size: 12px;
+                    }
+                    
+                    .gcb-feature-text {
+                        color: #1e293b;
+                    }
+                }
+            }
+        }
+        
+        .gcb-traffic-media {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            justify-content: center;
+            
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}

@@ -1,0 +1,367 @@
+/**
+ * Styles pour le frontend
+ *
+ * @package GutenbergCustomBlocks
+ */
+
+/* Styles généraux pour tous les blocs */
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+.gcb-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Hero Section */
+.gcb-hero-section {
+    padding: 80px 0 0 0;
+    background-color: #072038;
+    position: relative;
+    color: white;
+    width: 100vw;
+    max-width: 100%;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+.gcb-hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.gcb-hero-content {
+    flex: 1;
+    min-width: 300px;
+    padding-bottom: 40px;
+}
+
+.gcb-hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.2;
+}
+
+.gcb-hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.gcb-hero-cta {
+    margin-top: 30px;
+}
+
+.gcb-hero-button {
+    display: inline-block;
+    background-color: #26c1d9;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.gcb-hero-button:hover {
+    background-color: #1ca5b9;
+}
+
+.gcb-hero-image {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+    height: 400px;
+}
+
+.gcb-hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.gcb-hero-image-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #e2e8f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #718096;
+}
+
+/* Why Choose Us */
+.gcb-why-choose-us {
+    padding: 120px 0 80px 0;
+    background-color: white;
+    max-width: 100%;
+}
+
+.gcb-section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.gcb-section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #072038;
+}
+
+.gcb-section-description {
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.gcb-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.gcb-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.gcb-card:hover {
+    transform: translateY(-5px);
+}
+
+.gcb-card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #26c1d9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.gcb-card-icon i {
+    font-size: 24px;
+}
+
+.gcb-card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2d3748;
+}
+
+.gcb-card-description {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.gcb-card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Digital Agency */
+.gcb-digital-agency {
+    padding: 80px 0;
+    background-color: #f0f4f8;
+    max-width: 100%;
+}
+
+.gcb-digital-agency-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.gcb-digital-agency-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.gcb-digital-agency-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.gcb-agency-content {
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.gcb-icons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gcb-icon-box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.gcb-icon-box:hover {
+    transform: scale(1.05);
+}
+
+.gcb-icon-image, .gcb-icon, .gcb-icon-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gcb-icon i {
+    font-size: 24px;
+}
+
+/* Stats en bas du héro */
+.gcb-hero-stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-bottom: -40px; /* Pour qu'il dépasse en bas */
+    position: relative;
+    z-index: 10;
+    top: 40px;
+}
+
+.gcb-stat-item {
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.gcb-stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 1px;
+    background-color: #e2e8f0;
+}
+
+.gcb-stat-number {
+    font-size: 28px;
+    font-weight: 700;
+    color: #072038;
+    margin-bottom: 5px;
+}
+
+.gcb-stat-label {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* Increase Traffic */
+.gcb-increase-traffic {
+    padding: 80px 0;
+    background-color: #072038;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Styles pour les images flottantes */
+.laptop-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.laptop-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    max-width: 100px;
+    z-index: 3;
+    animation: float 6s ease-in-out infinite;
+}
+
+.code-screen {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    max-width: 400px;
+    z-index: 2;
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.ui-element {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 50%;
+    max-width: 100px;
+    z-index: 2;
+    animation: float 7s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

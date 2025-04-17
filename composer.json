@@ -1,0 +1,13 @@
+{
+    "name": "gutenberg-custom-blocks/plugin",
+    "description": "Custom Gutenberg blocks for WordPress editor",
+    "type": "wordpress-plugin",
+    "require": {
+        "scssphp/scssphp": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "GCB\\": "includes/"
+        }
+    }
+}

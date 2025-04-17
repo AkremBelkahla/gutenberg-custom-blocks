@@ -1,0 +1,214 @@
+/**
+ * Styles pour le bloc pricing-plans dans l'u00e9diteur
+ */
+
+/* Pricing Plans */
+#gcb-pricing-plans {
+    padding: 80px 20px;
+    background-color: #f8fafc;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#gcb-pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gcb-pricing-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-pricing-description {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+#gcb-pricing-plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+#gcb-pricing-plan {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s;
+}
+
+#gcb-pricing-plan:hover {
+    transform: translateY(-5px);
+}
+
+#gcb-plan-featured {
+    border: 2px solid #3b82f6;
+}
+
+#gcb-plan-featured-tag {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+#gcb-plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+#gcb-plan-price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+}
+
+#gcb-plan-period {
+    color: #64748b;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+#gcb-plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+#gcb-plan-feature {
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #64748b;
+}
+
+#gcb-plan-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#gcb-plan-button:hover {
+    background-color: #2563eb;
+}
+
+/* Styles pour l'aperu00e7u dans l'u00e9diteur */
+.gcb-pricing-plans-editor {
+    background-color: #f8fafc;
+    padding: 40px;
+    border-radius: 5px;
+    
+    .gcb-pricing-content {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 30px;
+        
+        .gcb-section-title {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+        
+        .gcb-section-description {
+            color: #64748b;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .gcb-pricing-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        
+        .gcb-pricing-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            
+            &.gcb-featured {
+                border: 2px solid #3b82f6;
+                
+                .gcb-featured-tag {
+                    position: absolute;
+                    top: -12px;
+                    right: 20px;
+                    background-color: #3b82f6;
+                    color: white;
+                    font-size: 12px;
+                    padding: 3px 10px;
+                    border-radius: 20px;
+                }
+            }
+            
+            .gcb-plan-name {
+                font-size: 20px;
+                font-weight: 600;
+                color: #1e293b;
+                margin-bottom: 15px;
+            }
+            
+            .gcb-plan-price {
+                font-size: 36px;
+                font-weight: 700;
+                color: #1e293b;
+                margin-bottom: 5px;
+            }
+            
+            .gcb-plan-period {
+                color: #64748b;
+                font-size: 14px;
+                margin-bottom: 20px;
+                display: block;
+            }
+            
+            .gcb-plan-features {
+                list-style: none;
+                padding: 0;
+                margin-bottom: 20px;
+                text-align: center;
+                
+                li {
+                    padding: 8px 0;
+                    border-bottom: 1px solid #e2e8f0;
+                    color: #64748b;
+                    font-size: 14px;
+                }
+            }
+            
+            .gcb-plan-button {
+                display: inline-block;
+                padding: 8px 20px;
+                background-color: #3b82f6;
+                color: white;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+}
